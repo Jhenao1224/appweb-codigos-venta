@@ -1,0 +1,4 @@
+body { font-family: sans-serif; margin: 0; padding: 2rem; background: #f5f5f5; }
+.app { max-width: 900px; margin: 0 auto; }
+.fila-producto { display: flex; justify-content: space-between; align-items: center; background: white; padding: 1rem; margin-bottom: 0.5rem; border-radius: 8px; }
+button { cursor: pointer; }

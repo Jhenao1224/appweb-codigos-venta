@@ -1,4 +1,9 @@
 body { font-family: sans-serif; margin: 0; padding: 2rem; background: #f5f5f5; }
-.app { max-width: 900px; margin: 0 auto; }
+.app { max-width: 1100px; margin: 0 auto; }
+.app-layout { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; align-items: start; }
 .fila-producto { display: flex; justify-content: space-between; align-items: center; background: white; padding: 1rem; margin-bottom: 0.5rem; border-radius: 8px; }
-button { cursor: pointer; }
+.carrito { background: white; padding: 1rem; border-radius: 8px; position: sticky; top: 1rem; }
+.item-carrito { display: flex; justify-content: space-between; padding: 0.5rem 0; border-bottom: 1px solid #eee; }
+.carrito-total { margin: 1rem 0; font-size: 1.2rem; }
+button { cursor: pointer; padding: 0.4rem 0.8rem; border-radius: 6px; border: none; background: #2563eb; color: white; }
+button:disabled { background: #ccc; cursor: not-allowed; }
